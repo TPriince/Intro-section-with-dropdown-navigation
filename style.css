@@ -134,11 +134,6 @@ img.mobile-hero {
     display: none;
 }
 
-
-/* img.desktop-hero {
-    display: none;
-} */
-
 div.text {
     text-align: center;
     padding: 5px;
@@ -180,9 +175,8 @@ br {
 div.footer-images {
     margin-top: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 30px;
     padding: 10px;
 }
 
