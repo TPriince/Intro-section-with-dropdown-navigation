@@ -122,13 +122,22 @@ main {
     margin-top: 20px;
 }
 
-img.mobile-hero {
-    margin: 10px 0 30px 0;
+.mobile-hero-image-div {
+    margin-bottom: 30px;
 }
 
-img.desktop-hero {
+img.mobile-hero {
+    width: 100%;
+}
+
+.desktop-hero-image-div {
     display: none;
 }
+
+
+/* img.desktop-hero {
+    display: none;
+} */
 
 div.text {
     text-align: center;
@@ -143,7 +152,7 @@ br {
     margin-top: 20px;
     padding: 0 10px;
     font-size: 16px;
-    line-height: 3vh;
+    line-height: 4vh;
     color: hsl(0, 0%, 41%);
 }
 
@@ -186,14 +195,16 @@ div.footer-images {
         max-width: 1200px;
     }
 
-    img.mobile-hero {
+    .mobile-hero-image-div {
         display: none;
     }
 
-    img.desktop-hero {
+    .desktop-hero-image-div {
         display: block;
+    }
+
+    img.desktop-hero {
         width: 98%;
-        height: auto;
     }
 
     nav.mobile-nav {
