@@ -24,6 +24,7 @@ a {
 a:hover {
     font-weight: 600;
 }
+
 nav.mobile-nav {
     display: flex;
     justify-content: space-between;
