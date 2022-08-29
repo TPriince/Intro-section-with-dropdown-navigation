@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js" defer></script>
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="mobile-nav">
+          <img class="logo" src="./images/logo.svg" alt="snap logo" />
+          <img class="menu" src="./images/icon-menu.svg" alt="menu icon" />
+
+          <div class="hamburger">
+            <img class="close-menu" src="./images/icon-close-menu.svg" alt="close-menu icon" />
+  
+            <div class="dropdown-container">
+              <a href="#">Features <img class="nav-image" src="./images/icon-arrow-down.svg" alt="up arrow"></a>
+              <div class="features dropdown">
+                <a href="#"><img src="./images/icon-todo.svg" alt="Todo List icon" />Todo List</a>
+                <a href="#"><img src="./images/icon-calendar.svg" alt="Calendar icon" />Calendar</a>
+                <a href="#"><img src="./images/icon-reminders.svg" alt="Reminder icon" />Reminders</a>
+                <a href="#"><img src="./images/icon-planning.svg" alt="Planning icon" />Planning</a>
+              </div>
+            </div>
+  
+            <div class="dropdown-container">
+              <a href="#">Company <img class="nav-image" src="./images/icon-arrow-down.svg" alt="up arrow"></a>
+              <div class="company dropdown">
+                <a href="#">History</a>
+                <a href="#">Our Team</a>
+                <a href="#">Blog</a>
+              </div>
+            </div>
+  
+            <a href="#">Career</a>
+            <a href="#">About</a>
+  
+            <div class="login-reg-div">
+              <a href="#">Login</a>
+              <button>Register</button>
+            </div>
+          </div>
+        </nav>
+
+
+        <nav class="desktop-nav">
+          <div class="first-desktop-nav">
+            <img class="logo" src="./images/logo.svg" alt="snap logo" />
+
+            <div class="dropdown-container" id="1">
+              <a href="#">Features <img class="nav-image" src="./images/icon-arrow-down.svg" alt="up arrow"></a>
+              <div class="features dropdown">
+                <a href="#"><img src="./images/icon-todo.svg" alt="Todo List icon" />Todo List</a>
+                <a href="#"><img src="./images/icon-calendar.svg" alt="Calendar icon" />Calendar</a>
+                <a href="#"><img src="./images/icon-reminders.svg" alt="Reminder icon" />Reminders</a>
+                <a href="#"><img src="./images/icon-planning.svg" alt="Planning icon" />Planning</a>
+              </div>
+            </div>
+
+            <div class="dropdown-container">
+              <a href="#">Company <img class="nav-image" src="./images/icon-arrow-down.svg" alt="up arrow"></a>
+              <div class="company dropdown">
+                <a href="#">History</a>
+                <a href="#">Our Team</a>
+                <a href="#">Blog</a>
+              </div>
+            </div>
+
+            <a href="#">Career</a>
+            <a href="#">About</a>
+          </div>
+
+          <div class="second-desktop-nav">
+            <a href="#">Login</a>
+            <button>Register</button>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <img
+          class="mobile-hero"
+          src="./images/image-hero-mobile.png"
+          alt="hero image mobile"
+        />
+        <div class="hero-image-div">
+          <img
+          class="desktop-hero"
+          src="./images/image-hero-desktop.png"
+          alt="hero image desktop"
+        />
+        </div>
+
+        <div class="text">
+          <h1>Make <br> remote work</h1>
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button>Learn More</button>
+
+          <div class="footer-images">
+            <img src="./images/client-databiz.svg" alt="Databiz image" />
+            <img src="./images/client-audiophile.svg" alt="Audiophile image" />
+            <img src="./images/client-meet.svg" alt="Meet image" />
+            <img src="./images/client-maker.svg" alt="Maker image" />
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="https://www.frontendmentor.io/profile/TPriince" target="_blank">Prince</a>.
+        </div>
+      </footer>
+    </div>
+
+  </body>
+</html>
